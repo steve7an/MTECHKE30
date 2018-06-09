@@ -1,1 +1,17 @@
 
+The goal of the project was to utilise raspberry pi to build a functional use case.
+
+And the one that we have chosen to focus one is on elderly fall detection.
+
+[Background video](https://www.youtube.com/watch?v=URcbJUne99E)
+
+Using the algorithm from [Kim Salmi](http://tunn.us/arduino/falldetector.php),
+
+plus some modification using the last x th frame vs the current frame to detect for change in the width and height for a detected person,
+
+we're able to successfully detect a potential fall and trigger an alarm if the person has not moved after a threshold limit has been reached.
+
+A simple demonstration can be seen below
+
+![Demo](fall.gif)
+
