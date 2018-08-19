@@ -1,17 +1,39 @@
 
-The goal of the project was to utilise raspberry pi to build a functional use case.
+Title of your project
+Elderly fall detection using Raspberry Pi
 
-And the one that we have chosen to focus one is on elderly fall detection.
+Short summary of the project
+Using camera and fall detection algorithm, borrowed works from Using the algorithm from [Kim Salmi](http://tunn.us/arduino/falldetector.php) with slight modification, the system will trigger a countdown timer upon the detection of a person falling down and being immobilised for a certain period of time. A simple LED lights and sound file is being played to call for help on site and an additional notification via email is also linked to this alarm to get additional help. 
 
 [Background video](https://www.youtube.com/watch?v=URcbJUne99E)
-
-Using the algorithm from [Kim Salmi](http://tunn.us/arduino/falldetector.php),
-
-plus some modification using the last x th frame vs the current frame to detect for change in the width and height for a detected person,
-
-we're able to successfully detect a potential fall and trigger an alarm if the person has not moved after a threshold limit has been reached.
 
 A simple demonstration can be seen below
 
 ![Demo](fall.gif)
+
+Installation
+Just checkout the whole folder and you should be able to run the script as it is after deploying the software to your raspberry pi.
+The below guide is useful for setup on the raspberry pi: 
+http://www.life2coding.com/install-opencv-3-4-0-python-3-raspberry-pi-3/
+
+How to use it
+You can either link this to the camera on your raspberry pi, or trigger the algorithm via a prerecorded video file for training and parameter adjustments.
+There are quite a few parameters that you can experiment with to better detect and trigger the alarm due to noise in the background and other potential objects which may confuse the algorithm. The angle of the camera can also play a very big part in how the algorithm will work.
+It's possible to setup multiple instances within the same room and use the combined results to better predict an actual emergency.
+
+Contribute
+If you've made some upgrades or have recommendations to me on how to improve, please feel free to share your thoughts.
+
+Support
+Contact me via my github and I will do what I can to help :)
+
+License
+
+Copyright 2018 steve7an
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
