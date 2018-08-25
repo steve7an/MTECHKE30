@@ -1,0 +1,27 @@
+Title of your project </br>
+Can NUS ISS Master help you land 21st century sexiest job? </br>
+</br>
+Short summary of the project</br>
+Collected the public profiles of past graduates for MTECH NUS-ISS program and correlating that with other information such as salary and industries information to provide additional background for the analysis.  </br>
+</br>
+Installation</br>
+Just checkout the whole folder and you should be able to run the script as it is after deploying the software to your raspberry pi. You would need a valid LinkedIn account to scrape the public profiles, for the database storage, MongoDB and SQL Server installation may be required.</br>
+</br>
+How to use it </br>
+The data and the analysis can be use as it is.</br>
+</br>
+Contribute</br>
+If you've made some upgrades or have recommendations to me on how to improve, please feel free to share your thoughts.</br>
+</br>
+Support</br>
+Contact me via my github and I will do what I can to help :)</br>
+</br>
+License</br>
+</br>
+Copyright 2018 steve7an</br>
+</br>
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</br>
+</br>
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</br>
+</br>
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</br>
